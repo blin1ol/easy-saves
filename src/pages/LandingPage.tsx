@@ -11,7 +11,7 @@ const LandingPage = () => {
         <CardContent className="p-8 md:p-12 text-center space-y-8">
           {/* Apple Logo */}
           <div className="flex justify-center mb-4">
-            <img src={sheinLogo} alt="SHEIN" className="h-16 md:h-20" />
+            <img src={sheinLogo} alt="SHEIN" className="h-20 md:h-28" />
           </div>
 
           {/* Question */}
