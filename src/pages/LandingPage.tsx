@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import sheinLogo from "@/assets/shein_logo.png";
 const LandingPage = () => {
-  const offerUrl = "https://uplevelrewarded.com/aff_c?offer_id=2596&aff_id=12594";
+  const offerUrl = "https://uplevelrewarded.com/aff_c?offer_id=1836&aff_id=12594";
   return <div className="min-h-screen bg-gradient-to-b from-background via-background to-secondary/30 flex items-center justify-center px-4">
       <Card className="max-w-2xl w-full bg-card/80 backdrop-blur-sm border-border/50">
         <CardContent className="p-8 md:p-12 text-center space-y-8">
