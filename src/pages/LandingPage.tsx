@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import appleLogo from "@/assets/apple_logo.svg";
+import sheinLogo from "@/assets/shein_logo.png";
 
 const LandingPage = () => {
   const offerUrl = "https://uplevelrewarded.com/aff_c?offer_id=2596&aff_id=12594";
@@ -11,7 +11,7 @@ const LandingPage = () => {
         <CardContent className="p-8 md:p-12 text-center space-y-8">
           {/* Apple Logo */}
           <div className="flex justify-center mb-4">
-            <img src={appleLogo} alt="Apple" className="h-16 md:h-20 brightness-0 invert" />
+            <img src={sheinLogo} alt="SHEIN" className="h-16 md:h-20 brightness-0 invert" />
           </div>
 
           {/* Question */}
