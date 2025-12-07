@@ -15,11 +15,19 @@ const Index = () => {
       </div>
 
       {/* Decorative lights */}
-      <div className="absolute top-0 left-0 right-0 flex justify-around py-4">
-        {[...Array(12)].map((_, i) => <div key={i} className="w-3 h-3 rounded-full animate-pulse" style={{
-        backgroundColor: i % 3 === 0 ? '#ff0000' : i % 3 === 1 ? '#00ff00' : '#ffd700',
-        animationDelay: `${i * 0.2}s`
-      }} />)}
+      <div className="absolute top-0 left-0 right-0 flex justify-around py-6 px-4">
+        {[...Array(15)].map((_, i) => (
+          <div 
+            key={i} 
+            className="w-4 h-4 md:w-5 md:h-5 rounded-full shadow-lg"
+            style={{
+              backgroundColor: i % 3 === 0 ? '#ff0000' : i % 3 === 1 ? '#00ff00' : '#ffd700',
+              boxShadow: `0 0 10px 3px ${i % 3 === 0 ? '#ff0000' : i % 3 === 1 ? '#00ff00' : '#ffd700'}`,
+              animation: `pulse 1s ease-in-out infinite`,
+              animationDelay: `${i * 0.15}s`
+            }} 
+          />
+        ))}
       </div>
 
       <Card className="max-w-2xl w-full bg-green-950/80 backdrop-blur-sm border-2 border-red-500/50 shadow-2xl shadow-red-500/20 relative z-10">
