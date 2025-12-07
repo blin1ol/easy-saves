@@ -12,7 +12,7 @@ const LandingPage = () => {
           </div>
 
           {/* Question */}
-          <h1 className="text-3xl md:text-5xl font-bold text-white leading-tight">Want to Get a $750 Shein Gift Card?</h1>
+          <h1 className="text-3xl md:text-5xl font-bold text-white leading-tight">Want to Get a $750 Amazon Gift Card</h1>
 
           <div className="text-left max-w-lg mx-auto space-y-3 text-white">
             <p className="text-base md:text-lg">
