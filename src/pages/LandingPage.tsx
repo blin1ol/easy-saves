@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import sheinLogo from "@/assets/shein_logo.png";
+import amazonLogo from "@/assets/amazon_logo.png";
 const LandingPage = () => {
   const offerUrl = "https://uplevelrewarded.com/aff_c?offer_id=1836&aff_id=12594";
   return <div className="min-h-screen bg-gradient-to-b from-red-900 via-red-800 to-green-900 flex items-center justify-center px-4 relative overflow-hidden">
@@ -28,7 +28,7 @@ const LandingPage = () => {
         <CardContent className="p-8 md:p-12 text-center space-y-8">
           {/* Logo */}
           <div className="flex justify-center mb-4">
-            <img src={sheinLogo} alt="SHEIN" className="h-20 md:h-28" />
+            <img src={amazonLogo} alt="Amazon" className="h-20 md:h-28" />
           </div>
 
           {/* Question */}
